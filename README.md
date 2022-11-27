@@ -1,6 +1,7 @@
 # CoffeeLinux
 
-### For most ARM based SoC's, this is all you need to boot. It is Ubuntu Bionic server configured for k8s
+### For most ARM based SoC's, this is all you need to boot. 
+### It is an Ubuntu Bionic server, with all network options are configured for docker and k8s
 
 # How to use
 
