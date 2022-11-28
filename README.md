@@ -9,10 +9,11 @@
 
 
 ```shell
-// with file in pwd:
+
 
 sudo mount [dev part] [destination]
 cd [destination]
+// with file in pwd:
 sudo tar -xvf rootfs.tar.bz2 
 sudo umount [destination]
 ```
