@@ -5,15 +5,11 @@
 
 # How to use
 
-### Go ahead and mount your drive and then extract the contents of ```rootfs.tar.bz2``` onto it. Unmount it and then just make the partition your boot selection
+### Go ahead and mount your drive and then extract the contents of ```rootfs.tar.bz2``` onto it. Unmount it, and when you boot just select the partition with the files.
 
-
+### It's as simple as:
 ```shell
-
-
 sudo mount [dev part] [destination]
-cd [destination]
-// with file in pwd:
-sudo tar -xvf rootfs.tar.bz2 
+sudo tar -xvf rootfs.tar.bz2 [destination]
 sudo umount [destination]
 ```
