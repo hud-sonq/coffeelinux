@@ -5,7 +5,7 @@
 
 # How to use
 
-### Go ahead and mount your drive and then extract the contents of ```rootfs.tar.bz2``` onto it. Unmount it, and when you boot just select the partition with the files.
+### Go ahead and mount your drive and then extract the contents of ```rootfs.tar.bz2``` onto it. Unmount it, and when you boot with the newly loaded partition.
 
 ### It's as simple as:
 ```shell
